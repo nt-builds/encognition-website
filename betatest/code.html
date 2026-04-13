@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="../icon-dark.png">
+<link rel="apple-touch-icon" href="../icon-dark.png">
+<title>Beta-Zugang einlösen</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow-blue"></div>
+
+  <div class="hero-icon-wrap">
+    <img src="../icon-dark.png" alt="App Icon">
+  </div>
+
+  <p class="hero-eyebrow">Beta-Zugang</p>
+
+  <h1 class="hero-headline" style="font-size:clamp(36px,6vw,64px);margin-bottom:16px;">
+    Dein Link <em>zum Einlösen.</em>
+  </h1>
+
+  <p style="position:relative;z-index:2;font-size:15.5px;color:var(--text2);max-width:460px;line-height:1.75;margin-bottom:44px;animation:fadeUp 0.9s 0.5s both;">
+    Tippe auf den Link oder kopiere ihn. Er öffnet den App Store direkt mit deinem Beta-Zugang.
+  </p>
+
+  <div class="redeem-link-box" style="animation:fadeUp 0.9s 0.65s both;">
+    <span class="redeem-link-text" id="redeem-url">https://apps.apple.com/redeem?ctx=offercodes&amp;id=6760428884&amp;code=BETATEST</span>
+    <button class="redeem-copy-btn" id="copy-btn">Kopieren</button>
+  </div>
+
+  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6760428884&code=BETATEST"
+     class="btn-primary"
+     style="position:relative;z-index:2;margin-top:28px;font-size:15px;padding:16px 40px;animation:fadeUp 0.9s 0.8s both;"
+     target="_blank" rel="noopener">
+    Jetzt einlösen →
+  </a>
+
+  <p style="position:relative;z-index:2;margin-top:28px;font-family:var(--mono);font-size:10.5px;color:var(--text2);opacity:0.35;letter-spacing:0.12em;animation:fadeIn 1s 1.2s both;">
+    App Store erforderlich · iOS
+  </p>
+</section>
+
+<footer>
+  <a class="footer-brand brand" href="../index.html">
+    <span class="en">En</span><span class="cogni">cognition</span>
+  </a>
+  <div class="footer-links">
+    <a href="../impressum.html">Impressum</a>
+    <a href="../datenschutz.html">Datenschutzerklärung</a>
+    <a href="../agb.html">AGB</a>
+    <a href="../disclaimer.html">Nutzungs-Disclaimer</a>
+    <a href="../support.html">Support</a>
+  </div>
+  <div class="footer-meta">
+    Cognitive Memory System · iOS Beta<br>
+    Made with ♥ by Nathalie · 2026
+  </div>
+</footer>
+
+<script>
+document.getElementById('copy-btn').addEventListener('click', function () {
+  var url = document.getElementById('redeem-url').textContent;
+  navigator.clipboard.writeText(url).then(function () {
+    var btn = document.getElementById('copy-btn');
+    btn.textContent = 'Kopiert ✓';
+    setTimeout(function () { btn.textContent = 'Kopieren'; }, 2000);
+  });
+});
+</script>
+
+<script src="../function.js"></script>
+</body>
+</html>
