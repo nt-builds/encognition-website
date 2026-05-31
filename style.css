@@ -1750,3 +1750,23 @@ footer {
   .w-risk-table th,
   .w-risk-table td  { padding: 12px 16px; }
 }
+
+/* ─────────────────────────────────────────────
+   ZIELGRUPPEN-LANDINGPAGES (.lp)
+   Kompakterer Hero, damit der CTA bei laengeren
+   Headlines/Subtexten zuverlaessig above the fold
+   bleibt. Gilt nur fuer studierende.html / lehrende.html
+   ───────────────────────────────────────────── */
+.lp .hero            { padding: 92px 24px 56px; }
+.lp .hero-icon-wrap  { margin-bottom: 22px; }
+.lp .hero-icon-wrap img { width: 76px; height: 76px; }
+.lp .hero-eyebrow    { margin-bottom: 14px; }
+.lp .hero-headline   { font-size: clamp(30px, 5vw, 60px); margin-bottom: 18px; }
+.lp .hero-sub        { margin-bottom: 28px; max-width: 600px; }
+
+@media (max-width: 480px) {
+  .lp .hero          { padding: 76px 22px 48px; }
+  .lp .hero-icon-wrap img { width: 64px; height: 64px; }
+  .lp .hero-headline { font-size: clamp(27px, 8.2vw, 40px); }
+  .lp .hero-sub      { font-size: 15px; line-height: 1.6; margin-bottom: 24px; }
+}
