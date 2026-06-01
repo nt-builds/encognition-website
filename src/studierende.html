@@ -32,23 +32,26 @@
   </div>
 </section>
 
-<!-- ══ FEATURE SHOWCASE ══ -->
+<!-- ══ JOURNEY ══ -->
 <hr class="section-divider">
 <div class="section reveal">
   <p class="label">{{section_label}}</p>
   <h2 class="display" style="margin-bottom:72px;">{{section_heading}}</h2>
 
-  <div class="feature-showcase">
-{{#each features}}
-    <div class="feature-row{{reverse}}">
-      <div class="feature-img-wrap">
-        <img class="feature-img" src="{{img}}" alt="{{alt}}">
-      </div>
-      <div class="feature-body">
-        <p class="feature-kicker">{{kicker}}</p>
-        <h3 class="feature-headline">{{headline}}</h3>
-        <p class="feature-desc">{{desc}}</p>
-        {{sci}}
+  <div class="journey">
+{{#each steps}}
+    <div class="journey-step">
+      <div class="step-num">{{num}}</div>
+      <div class="step-content{{align}}">
+        <div class="step-img-wrap">
+          <img class="step-img" src="{{img}}" alt="{{alt}}">
+        </div>
+        <div class="step-body">
+          <p class="feature-kicker">{{kicker}}</p>
+          <h3 class="feature-headline">{{headline}}</h3>
+          <p class="feature-desc">{{desc}}</p>
+          {{sci}}
+        </div>
       </div>
     </div>
 {{/each}}

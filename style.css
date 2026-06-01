@@ -1345,6 +1345,103 @@ footer {
 }
 
 /* ─────────────────────────────────────────────
+   QUELLENANGABE — APA7-konforme Referenz im Fließtext
+───────────────────────────────────────────── */
+.source-cite {
+  font-size: 12.5px;
+  color: var(--text2);
+  opacity: 0.65;
+  line-height: 1.65;
+  margin-top: 32px;
+  max-width: 780px;
+}
+.source-cite em { font-style: italic; }
+.source-cite strong { color: var(--text); font-weight: 500; }
+.source-cite a {
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(96,165,250,0.3);
+  transition: color 0.2s, border-color 0.2s;
+}
+.source-cite a:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ─────────────────────────────────────────────
+   JOURNEY — nummerierte Schritt-Strecke (Studierende)
+───────────────────────────────────────────── */
+.journey {
+  display: flex;
+  flex-direction: column;
+}
+.journey-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 40px;
+  padding-bottom: 88px;
+  position: relative;
+}
+.journey-step:last-child {
+  padding-bottom: 0;
+}
+/* verbindende Linie hinter den Nummern */
+.journey-step::before {
+  content: '';
+  position: absolute;
+  left: 27px;
+  top: 64px;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(var(--border), transparent);
+}
+.journey-step:last-child::before {
+  display: none;
+}
+.step-num {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-size: 24px;
+  color: var(--gold);
+  position: relative;
+  z-index: 1;
+}
+.step-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+.step-content.reverse { direction: rtl; }
+.step-content.reverse > * { direction: ltr; }
+.step-img-wrap {
+  display: flex;
+  justify-content: center;
+}
+.step-img {
+  max-height: 440px;
+  width: auto;
+  border-radius: 24px;
+  box-shadow: 0 40px 100px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.04);
+}
+.step-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+@media (max-width: 768px) {
+  .journey-step { grid-template-columns: 44px 1fr; gap: 24px; padding-bottom: 56px; }
+  .journey-step::before { left: 21px; top: 52px; }
+  .step-num { width: 44px; height: 44px; font-size: 20px; }
+  .step-content { grid-template-columns: 1fr; gap: 28px; }
+  .step-content.reverse { direction: ltr; }
+}
+
+/* ─────────────────────────────────────────────
    SCIENCE MODAL
 ───────────────────────────────────────────── */
 .sci-modal-backdrop {
