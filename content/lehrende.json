@@ -51,5 +51,14 @@
     }
   ],
 
+  "bridge_text": "Für Ihre Studierenden gedacht: lernwirksam & datensouverän.",
+  "bridge_link": "Die Studierenden-Perspektive →",
+  "bridge_href": "studierende.html",
+
+  "beta_label": "Mitten in der Entwicklung",
+  "beta_heading": "Ihr Feedback <em>gestaltet mit.</em>",
+  "beta_text": "Encognition ist als Beta im App Store verfügbar, derzeit für iOS. Probieren Sie sie aus und sagen Sie mir, was Sie brauchen — Ihre Rückmeldung fließt direkt in die Entwicklung ein.",
+  "beta_note": "Tester:innen & Feedback sehr willkommen · mail@nathalie-trefz.de",
+
   "footer_meta": "Quelle der 90-%-Angabe: von Garrel, J. &amp; Mayer, J. (2025). Künstliche Intelligenz im Studium. Hochschule Darmstadt. doi.org/10.48444/h_docs-pub-533<br>\n    Cognitive Memory System · iOS Beta · Made with ♥ by Nathalie · 2026"
 }

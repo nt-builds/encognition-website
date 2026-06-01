@@ -9,6 +9,24 @@
   "hero_sub": "Kein Tool. Ein Ökosystem. So wie dein Gehirn es braucht.",
   "hero_cta": "Jetzt kostenlos testen!",
 
+  "audience_label": "Wo willst du anfangen?",
+  "audience": [
+    {
+      "kicker": "🎓 Für Studierende",
+      "headline": "Folien rein, verstehen raus.",
+      "desc": "Lernen, das die Klausur übersteht — und deine Unterlagen bleiben deins.",
+      "href": "studierende.html",
+      "cta": "Für Studierende"
+    },
+    {
+      "kicker": "👩‍🏫 Für Lehrende",
+      "headline": "Ihr Material bereichert. Es trainiert keine KI.",
+      "desc": "Lernwirksam und urheberrechtssicher — didaktisch fundiert, datensouverän.",
+      "href": "lehrende.html",
+      "cta": "Für Lehrende"
+    }
+  ],
+
   "section_label": "Wie es funktioniert",
   "section_heading": "PDF rein. <em>Wissen verankert.</em>",
 
@@ -50,6 +68,11 @@
       "sci": "<span class=\"feature-sci\">Spatial Memory — Sanchez &amp; Wiley, 2009</span>"
     }
   ],
+
+  "beta_label": "Frisch aus der Werkstatt",
+  "beta_heading": "In Entwicklung — <em>und du kannst mitbauen.</em>",
+  "beta_text": "Encognition ist gerade als Beta im App Store gelandet — aktuell nur für iOS. Lad sie dir, probier sie aus, sag mir, was hakt: Jede Rückmeldung fließt direkt in die nächste Version.",
+  "beta_note": "Tester:innen & Feedback herzlich willkommen · mail@nathalie-trefz.de",
 
   "footer_meta": "Cognitive Memory System · iOS Beta<br>\n    Made with ♥ by Nathalie · 2026"
 }

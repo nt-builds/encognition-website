@@ -51,5 +51,14 @@
     }
   ],
 
+  "bridge_text": "Du unterrichtest selbst?",
+  "bridge_link": "So schützt Encognition dein Lehrmaterial →",
+  "bridge_href": "lehrende.html",
+
+  "beta_label": "Frisch aus der Werkstatt",
+  "beta_heading": "In Entwicklung — <em>und du kannst mitbauen.</em>",
+  "beta_text": "Encognition ist gerade als Beta im App Store gelandet — aktuell nur für iOS. Lad sie dir, probier sie aus, sag mir, was hakt: Jede Rückmeldung fließt direkt in die nächste Version.",
+  "beta_note": "Tester:innen & Feedback herzlich willkommen · mail@nathalie-trefz.de",
+
   "footer_meta": "Cognitive Memory System · iOS Beta<br>\n    Made with ♥ by Nathalie · 2026"
 }
