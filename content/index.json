@@ -1,0 +1,55 @@
+{
+  "title": "Encognition — Das Lernen, das bleibt.",
+  "nav_home": "#",
+  "footer_home": "#",
+  "support_active": "",
+
+  "hero_eyebrow": "Dein Gehirn hat Ansprüche. Encognition erfüllt sie.",
+  "hero_headline": "Dein PDF. Eine ganze Lernerfahrung.",
+  "hero_sub": "Kein Tool. Ein Ökosystem. So wie dein Gehirn es braucht.",
+  "hero_cta": "Jetzt kostenlos testen!",
+
+  "section_label": "Wie es funktioniert",
+  "section_heading": "PDF rein. <em>Wissen verankert.</em>",
+
+  "features": [
+    {
+      "reverse": "",
+      "img": "screen2.png",
+      "alt": "Workflow: PDF hochladen, KI erstellt Lernmaterial, Loslernen",
+      "kicker": "Der Einstieg",
+      "headline": "Kein Setup.<br>Nur dein PDF.",
+      "desc": "PDF hochladen, fertig. Die KI liest, strukturiert und erstellt Lernkarten — mit echtem Kontext aus deinem Dokument. Du fängst an zu lernen, nicht einzurichten.",
+      "sci": "<span class=\"feature-sci\">Cognitive Load Theory — Sweller, 1988</span>"
+    },
+    {
+      "reverse": " reverse",
+      "img": "screen4.png",
+      "alt": "10 Aufgabenformate und Spaced Repetition",
+      "kicker": "Aktiver Abruf",
+      "headline": "10 Formate.<br>Keine Routine.",
+      "desc": "Emojis kodieren, Analogien erfinden, das Falsche raussuchen, Konzepte zeichnen — jedes Format erzwingt echten Abruf. FSRS-5 sorgt dafür, dass Karten genau dann wiederkommen, wenn du sie fast vergessen hast.",
+      "sci": "<span class=\"feature-sci\">Testing Effect — Roediger &amp; Karpicke, 2006</span>"
+    },
+    {
+      "reverse": "",
+      "img": "screen5.png",
+      "alt": "Kontextwissen, Beleg aus PDF und Wissens-Grid",
+      "kicker": "Tiefes Verstehen",
+      "headline": "Nicht auswendig.<br>Wirklich verstehen.",
+      "desc": "Jede Aufgabe bringt Kontext, ein direktes Zitat aus deiner PDF und zeigt dir deinen Platz im Wissens-Grid. Du siehst immer, worauf sich die KI stützt — und wo du gerade bist.",
+      "sci": "<span class=\"feature-sci\">Dual Coding — Paivio, 1971</span>"
+    },
+    {
+      "reverse": " reverse",
+      "img": "screen6.png",
+      "alt": "Das Wissens-Grid: räumliche Verortung",
+      "kicker": "Räumliche Verortung",
+      "headline": "Dein Wissen<br>auf einer Karte.",
+      "desc": "Das Grid zeigt alle Karten nach Topics sortiert — farblich markiert, räumlich fixiert. Dein Gehirn verankert Wissen besser, wenn es weiß, wo es hängt.",
+      "sci": "<span class=\"feature-sci\">Spatial Memory — Sanchez &amp; Wiley, 2009</span>"
+    }
+  ],
+
+  "footer_meta": "Cognitive Memory System · iOS Beta<br>\n    Made with ♥ by Nathalie · 2026"
+}

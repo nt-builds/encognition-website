@@ -1,0 +1,142 @@
+{
+  "title": "Encognition – Die Wissenschaft dahinter",
+
+  "hero_eyebrow": "Forschungsgrundlage · Evidence-Based Learning",
+  "hero_headline": "Kein Feature<br>ohne <em style=\"font-style:italic;\">Studie.</em>",
+  "hero_sub": "Jede Entscheidung in <span class=\"brand\"><span class=\"en\">En</span><span class=\"cogni\">cognition</span></span> ist durch publizierte Neurowissenschaft gedeckt. Hier ist der Beweis.",
+
+  "problem_label": "Das Problem mit Lernen",
+  "pull_quote": "Wissen, das nicht aktiv abgerufen wird, <span>verblasst. Nicht irgendwann. Sofort.</span>",
+  "problem_p1": "Die meisten Lern-Apps trainieren das Wiedererkennen. Du liest, scrollst, markierst — und glaubst, du lernst. Dabei misst du nur, ob du etwas schon mal gesehen hast.",
+  "problem_p2": "Echtes Lernen ist anstrengend. Es heißt: Wissen aus dem Nichts rekonstruieren, bevor du sicher bist, ob du es noch weißt. Genau das nennt die Forschung „Desirable Difficulty\" — erwünschte Schwierigkeit.",
+  "problem_p3": "<span class=\"brand\"><span class=\"en\">En</span><span class=\"cogni\">cognition</span></span> ist von Grund auf für diesen Moment gebaut.",
+
+  "principles_label": "10 Prinzipien",
+  "principles_heading": "Zehn Entscheidungen. <em>Ein Ziel:</em><br>Wissen, das haftet.",
+
+  "principles": [
+    {
+      "num": "01",
+      "refs": "2,6",
+      "ptitle": "Spaced Repetition mit FSRS-5",
+      "ptext": "Der FSRS-5 Algorithmus berechnet für jede Karte individuell, wann sie wieder erscheinen muss — exakt dann, wenn die Abrufwahrscheinlichkeit noch bei ca. 90 % liegt. Nicht früher. Nicht später.",
+      "science": "Lernen kurz vor dem Vergessen ist die effizienteste Art, Gedächtnisspuren zu vertiefen. Cepeda et al. zeigen, dass verteiltes Lernen (Spaced Practice) konsistentes Massed Practice schlägt — in Retention und Transfer. FSRS-5 berechnet den optimalen Abstand für jede Karte individuell, auf Basis von Stabilitäts- und Schwierigkeitsparametern. Das Wiederholungsintervall wächst, je stabiler eine Gedächtnisspur ist."
+    },
+    {
+      "num": "02",
+      "refs": "4,3",
+      "ptitle": "Aktiver Abruf, 10 Formate",
+      "ptext": "Kein Umdrehen, kein Lesen, kein passives Scrollen. Alle 10 Aufgabenformate erzwingen, dass du Wissen selbst rekonstruierst. Du erinnerst dich, weil du es selbst generiert hast — nicht weil du es gesehen hast.",
+      "science": "Der sogenannte Testing-Effekt gehört zu den robustesten Befunden der Lernforschung. Roediger & Karpicke (2006) zeigen, dass aktives Abrufen von Wissen die Retention drastisch verbessert — verglichen mit passivem Wiederlesen. Dunlosky et al. (2013) bestätigen in ihrem systematischen Review: Practice Testing ist eine der effektivsten Lerntechniken, die wir kennen. Alle 10 Aufgabenformate sind auf genau dieses Prinzip ausgelegt."
+    },
+    {
+      "num": "03",
+      "refs": "18,5",
+      "ptitle": "Elaboration statt Auswendiglernen",
+      "ptext": "Analogien bilden, Wissen in Emojis komprimieren, Schlagzeilen erfinden — diese Formate lassen sich nicht lösen, ohne den Inhalt wirklich durchdrungen zu haben. Oberflächliches Erinnern reicht nicht.",
+      "science": "Craik & Lockhart (1972) formulierten das Levels-of-Processing-Modell: Je tiefer wir Informationen verarbeiten, desto langlebiger die Gedächtnisspur. Elaboration — das Verknüpfen, Umformulieren und Anreichern von Wissen — ist die tiefste Form der Verarbeitung. Bjork & Bjork (2011) zeigen: Aufgaben, die echte kognitive Arbeit erfordern, erzeugen stärkere Lerneffekte als leichte Aufgaben. Analogy, Emoji Compression und Headline-Format zwingen zu genau dieser Tiefe."
+    },
+    {
+      "num": "04",
+      "refs": "8,10",
+      "ptitle": "Dual Coding",
+      "ptext": "Scribble Mnemonics lassen dich Konzepte zeichnen, während du sie lernst. Der Focus Context zeigt dir das Originalzitat aus deiner PDF jederzeit — zwei Kanäle, eine tiefere Gedächtnisspur.",
+      "science": "Paivio (1971) beschrieb zwei parallele Codierungssysteme im Gehirn: verbale und bildliche Repräsentation. Wissen, das beide Kanäle aktiviert, ist stabiler im Gedächtnis verankert. Mayer (2001) übersetzte das in konkretes Mediendesign: Texte mit komplementären visuellen Elementen fördern das Verstehen. Scribble Mnemonics nutzen diesen Effekt gezielt — Zeichnen und Erinnern aktivieren unterschiedliche neuronale Netzwerke und verstärken sich gegenseitig."
+    },
+    {
+      "num": "05",
+      "refs": "9,7",
+      "ptitle": "Cognitive Load kontrolliert",
+      "ptext": "PDFs werden regelbasiert in Abschnitte von ca. 1.800 Zeichen aufgeteilt — an Überschriften, Absätzen und Listenstrukturen orientiert. Jede Karte hat genau den Kontext, den sie braucht. Nicht mehr.",
+      "science": "Sweller (1988) unterscheidet intrinsische, extraneous und germane cognitive load. Zu viel Information auf einmal — oder unstrukturiert präsentiert — überlastet das Arbeitsgedächtnis und blockiert Lernen. Baddeley & Hitch (1974) zeigen: Das Arbeitsgedächtnis hat eine begrenzte Kapazität. Regelbasiertes Chunking in Encognition hält jeden Abschnitt auf ca. 1.800 Zeichen — nah am Originaltext, ohne zu überlasten."
+    },
+    {
+      "num": "06",
+      "refs": "5,3",
+      "ptitle": "Interleaving",
+      "ptext": "Der Feed mischt Aufgaben aus verschiedenen Decks und variiert die Formate — von Wiedererkennen bis zur kreativen Anwendung. Weil dein Gehirn durch Abwechslung unterscheiden lernt, nicht durch stures Wiederholen.",
+      "science": "Bjork & Bjork (2011) beschreiben Interleaving als eine der 'Desirable Difficulties': Es fühlt sich schwerer an, ist aber langfristig wirkungsvoller als blockiertes Üben. Dunlosky et al. (2013) bestätigen: Abwechslung im Lernmaterial verbessert die Diskriminationsfähigkeit — das Gehirn lernt zu unterscheiden, nicht nur zu erkennen. Der gemischte Feed variiert nicht nur Decks, sondern auch Aufgabenformate — für maximalen Transfereffekt."
+    },
+    {
+      "num": "07",
+      "refs": "11,12",
+      "ptitle": "Synaptische Konsolidierung",
+      "ptext": "Alle 15 Karten kommt eine Pause — ob du willst oder nicht. Kurze Stille nach dem Lernen ist kein Luxus. Sie ist der Moment, in dem der Hippocampus das Gelernte stabilisiert. Das zeigt die Forschung eindeutig.",
+      "science": "Frey & Morris (1997) entdeckten Synaptic Tagging: Synapsen markieren sich nach Aktivierung und sind für kurze Zeit besonders plastisch — aber nur, wenn ein Konsolidierungsreiz folgt. Diekelmann & Born (2010) zeigen, dass Pausen und Schlaf essentiell für den Transfer von Inhalten aus dem Kurzzeit- ins Langzeitgedächtnis sind. Micro-Breaks nach je 15 Karten sind neurobiologisch begründet: Der Hippocampus braucht Stille, um das Gelernte zu stabilisieren."
+    },
+    {
+      "num": "08",
+      "refs": "14",
+      "ptitle": "Räumliche Verortung",
+      "ptext": "Das Wissens-Grid zeigt alle Karten auf einem festen, zweidimensionalen Canvas — nach Topics sortiert. Die Minimap in jeder Aufgabe zeigt dir, wo du gerade bist. Dein Gehirn braucht Anker, um Wissen zu vernetzen.",
+      "science": "Sanchez & Wiley (2009) zeigen, dass räumliche Konsistenz beim Lesen — also das Wissen, wo man sich im Dokument befindet — die kognitive Orientierung verbessert und Lerneffekte verstärkt. Das Wissens-Grid in Encognition platziert jede Karte auf einem fixen zweidimensionalen Canvas nach Topics. Die Minimap in der Aufgabenansicht ist keine Dekoration: Sie gibt dem Gehirn einen räumlichen Anker für jeden Wissensinhalt."
+    },
+    {
+      "num": "09",
+      "refs": "15,16",
+      "ptitle": "Keine hohle Gamification",
+      "ptext": "Kein Leaderboard, kein Streak, keine Punkte. Extrinsische Belohnungen untergraben langfristig die intrinsische Motivation. Der Fortschrittsindikator zeigt nur, was zählt: wie viele fällige Karten du heute bearbeitet hast.",
+      "science": "Schultz (2016) zeigt, dass Dopamin nicht für Belohnungen ausgeschüttet wird — sondern für Vorhersagefehler. Echte Schwierigkeit und spürbarer Fortschritt aktivieren das Belohnungssystem stärker als externe Punkte. Deci & Ryan (2000) formulierten die Selbstbestimmungstheorie: Intrinsische Motivation — getragen durch Kompetenzerleben, Autonomie und Bedeutung — ist langfristig tragfähiger als extrinsische Anreize. Streaks und Leaderboards ersetzen das durch Sucht-Mechanismen."
+    },
+    {
+      "num": "10",
+      "refs": "3,17",
+      "ptitle": "Metakognition by Design",
+      "ptext": "Die SRS Progress View zeigt exakt, was neu, fällig und gelernt ist. Wer seinen Lernstand nicht kennt, überschätzt sich systematisch. Diese Transparenz ist kein nettes Extra — sie ist Grundvoraussetzung für intentionales Lernen.",
+      "science": "Dunlosky et al. (2013) belegen, dass Lernende ihren eigenen Wissensstand systematisch überschätzen — ein Effekt, der durch regelmäßiges Selbst-Testing reduziert wird. MedCrave (2017) zeigt: Intentionales Lernen — mit explizitem Bewusstsein über den eigenen Lernprozess — ist signifikant effektiver als inzidentelles Lernen. Die SRS Progress View macht diesen Prozess sichtbar: neue, fällige und gelernte Karten auf einen Blick. Wer seinen Lernstand kennt, plant besser."
+    }
+  ],
+
+  "forschung_label": "Forschungsgrundlage",
+  "forschung_heading": "Keine Intuition. <em>Nur Studien.</em>",
+  "forschung_intro": "Jedes der 10 Prinzipien ist in peer-reviewter Forschung verankert. Die wichtigsten Arbeiten im Überblick.",
+
+  "pills": [
+    { "topic": "Spaced Repetition", "author": "Cepeda et al., 2006" },
+    { "topic": "Testing-Effekt", "author": "Roediger &amp; Karpicke, 2006" },
+    { "topic": "Desirable Difficulties", "author": "Bjork &amp; Bjork, 2011" },
+    { "topic": "Levels of Processing", "author": "Craik &amp; Lockhart, 1972" },
+    { "topic": "Dual Coding", "author": "Paivio, 1971" },
+    { "topic": "Multimedia Learning", "author": "Mayer, 2001" },
+    { "topic": "Cognitive Load Theory", "author": "Sweller, 1988" },
+    { "topic": "Working Memory", "author": "Baddeley &amp; Hitch, 1974" },
+    { "topic": "Synaptic Tagging", "author": "Frey &amp; Morris, 1997" },
+    { "topic": "Memory &amp; Sleep", "author": "Diekelmann &amp; Born, 2010" },
+    { "topic": "Spatial Memory", "author": "Sanchez &amp; Wiley, 2009" },
+    { "topic": "Dopamin &amp; Motivation", "author": "Schultz, 2016" },
+    { "topic": "Selbstbestimmungstheorie", "author": "Deci &amp; Ryan, 2000" },
+    { "topic": "Effective Learning Techniques", "author": "Dunlosky et al., 2013" },
+    { "topic": "Intentionales Lernen", "author": "MedCrave, 2017" },
+    { "topic": "Dendritic Spine Formation", "author": "Max-Planck-Institut, 2007" },
+    { "topic": "Social Media &amp; Kognition", "author": "PMC12329480, 2025" },
+    { "topic": "Human Memory Model", "author": "Atkinson &amp; Shiffrin, 1968" }
+  ],
+
+  "quellen_label": "Quellenverzeichnis",
+  "quellen_heading": "Die Studien <em>im Detail.</em>",
+
+  "references": [
+    { "num": "1", "ref": "<a href=\"https://www.mpg.de/550362/pressRelease20070817\" target=\"_blank\" rel=\"noopener\">Max-Planck-Institut (2007): „The building blocks of memory – Dornenfortsatzbildung\".</a>" },
+    { "num": "2", "ref": "<a href=\"https://doi.org/10.1111/j.1467-9280.2006.01711.x\" target=\"_blank\" rel=\"noopener\">Cepeda, N. J. et al. (2006): „Distributed practice in verbal recall tasks\". <em>Psychological Science</em>.</a>" },
+    { "num": "3", "ref": "<a href=\"https://doi.org/10.1177/1529100612453266\" target=\"_blank\" rel=\"noopener\">Dunlosky, J. et al. (2013): „Improving Students' Learning With Effective Learning Techniques\". <em>Psychological Science in the Public Interest</em>.</a>" },
+    { "num": "4", "ref": "<a href=\"https://journals.sagepub.com/doi/abs/10.1111/j.1745-6916.2006.00012.x\" target=\"_blank\" rel=\"noopener\">Roediger, H. L. &amp; Karpicke, J. D. (2006): „The Power of Testing Memory\". <em>Perspectives on Psychological Science</em>.</a>" },
+    { "num": "5", "ref": "<a href=\"https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf\" target=\"_blank\" rel=\"noopener\">Bjork, R. A. &amp; Bjork, E. L. (2011): „Making things hard on yourself, but in a good way\". <em>Psychology and the Real World</em>.</a>" },
+    { "num": "6", "ref": "<a href=\"https://doi.org/10.1016/S0079-7421(08)60422-3\" target=\"_blank\" rel=\"noopener\">Atkinson, R. C. &amp; Shiffrin, R. M. (1968): „Human memory: A proposed system and its control processes\".</a>" },
+    { "num": "7", "ref": "<a href=\"https://doi.org/10.1016/S0079-7421(08)60452-1\" target=\"_blank\" rel=\"noopener\">Baddeley, A. D. &amp; Hitch, G. J. (1974): „Working Memory\". <em>The Psychology of Learning and Motivation</em>.</a>" },
+    { "num": "8", "ref": "<a href=\"https://archive.org/details/imageryverbalpro0000paiv\" target=\"_blank\" rel=\"noopener\">Paivio, A. (1971): „Imagery and Verbal Processes\". Holt, Rinehart and Winston.</a>" },
+    { "num": "9", "ref": "<a href=\"https://doi.org/10.1207/s15516709cog1202_4\" target=\"_blank\" rel=\"noopener\">Sweller, J. (1988): „Cognitive load during problem solving\". <em>Cognitive Science</em>.</a>" },
+    { "num": "10", "ref": "<a href=\"https://www.cambridge.org/core/books/multimedia-learning/7A62F072A71289E1E262980CB026A3F9\" target=\"_blank\" rel=\"noopener\">Mayer, R. E. (2001): „Multimedia Learning\". Cambridge University Press.</a>" },
+    { "num": "11", "ref": "<a href=\"https://doi.org/10.1038/385533a0\" target=\"_blank\" rel=\"noopener\">Frey, U. &amp; Morris, R. G. (1997): „Synaptic tagging and long-term potentiation\". <em>Nature</em>.</a>" },
+    { "num": "12", "ref": "<a href=\"https://doi.org/10.1038/nrn2762\" target=\"_blank\" rel=\"noopener\">Diekelmann, S. &amp; Born, J. (2010): „The memory function of sleep\". <em>Nature Reviews Neuroscience</em>.</a>" },
+    { "num": "13", "ref": "<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12329480/\" target=\"_blank\" rel=\"noopener\">PMC12329480 (2025): „Modern Day High: Neurocognitive Impact of Social Media\". <em>PubMed Central</em>.</a>" },
+    { "num": "14", "ref": "<a href=\"https://journals.sagepub.com/doi/10.1177/0018720809352788\" target=\"_blank\" rel=\"noopener\">Sanchez, C. A. &amp; Wiley, J. (2009): „To Scroll or Not to Scroll\". <em>Human Factors</em>.</a>" },
+    { "num": "15", "ref": "<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5549862/\" target=\"_blank\" rel=\"noopener\">Schultz, W. (2016): „Dopamine reward prediction-error signalling\". <em>Nature Reviews Neuroscience</em>.</a>" },
+    { "num": "16", "ref": "<a href=\"https://doi.org/10.1207/S15327965PLI1104_01\" target=\"_blank\" rel=\"noopener\">Deci, E. L. &amp; Ryan, R. M. (2000): „The 'What' and 'Why' of Goal Pursuits\". <em>Psychological Inquiry</em>.</a>" },
+    { "num": "17", "ref": "<a href=\"https://medcraveonline.com/JPCPY/intentional-learning-vs-incidental-learning.html\" target=\"_blank\" rel=\"noopener\">MedCrave (2017): „Intentional learning vs. incidental learning\". <em>JPCPY-07-00426</em>.</a>" },
+    { "num": "18", "ref": "<a href=\"https://doi.org/10.1016/S0022-5371(72)80001-X\" target=\"_blank\" rel=\"noopener\">Craik, F. I. &amp; Lockhart, R. S. (1972): „Levels of processing\". <em>Journal of Verbal Learning and Verbal Behavior</em>.</a>" }
+  ],
+
+  "footer_home": "index.html",
+  "support_active": "",
+  "footer_meta": "Cognitive Memory System · iOS Beta<br>\n    Made with ♥ by Nathalie · 2026"
+}

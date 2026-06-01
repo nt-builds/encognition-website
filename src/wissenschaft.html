@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="icon-dark.png">
+<link rel="apple-touch-icon" href="icon-dark.png">
+<title>{{title}}</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+{{> nav-back}}
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow-blue"></div>
+
+  <p class="hero-eyebrow">{{hero_eyebrow}}</p>
+
+  <h1 class="hero-headline">{{hero_headline}}</h1>
+
+  <p class="hero-sub">{{hero_sub}}</p>
+
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- ══ PROBLEM / THESE ══ -->
+<div class="section reveal">
+  <div class="split">
+    <div>
+      <p class="label">{{problem_label}}</p>
+      <blockquote class="pull-quote">
+        {{pull_quote}}
+      </blockquote>
+    </div>
+    <div>
+      <p style="font-size:16px;color:var(--text2);line-height:1.8;margin-bottom:20px;">
+        {{problem_p1}}
+      </p>
+      <p style="font-size:16px;color:var(--text2);line-height:1.8;margin-bottom:20px;">
+        {{problem_p2}}
+      </p>
+      <p style="font-size:16px;color:var(--text2);line-height:1.8;">
+        {{problem_p3}}
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ══ 10 PRINZIPIEN ══ -->
+<div class="section-full reveal" id="prinzipien">
+  <div class="section-inner">
+    <p class="label">{{principles_label}}</p>
+    <h2 class="display" style="margin-bottom:56px;">{{principles_heading}}</h2>
+  </div>
+
+  <div class="section-inner">
+    <div class="principles">
+
+{{#each principles}}
+      <div class="principle-card"
+        data-science="{{science}}"
+        data-refs="{{refs}}">
+        <div class="pc-number">{{num}}</div>
+        <div class="pc-title">{{ptitle}}</div>
+        <div class="pc-text">{{ptext}}</div>
+      </div>
+{{/each}}
+
+      <div class="principle-card" style="background:rgba(251,191,36,0.03);">
+        <div class="pc-number" style="color:var(--gold);opacity:0.5;">→</div>
+        <div class="pc-title" style="color:var(--text2);">Alle Entscheidungen sind durch Forschung gedeckt.</div>
+        <div class="pc-text">Keine Animation ohne Grund. Kein Format ohne Studie. <a href="#quellen" style="color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(251,191,36,0.3);">Alle Quellen ↓</a></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ══ SCIENCE STRIP ══ -->
+<div class="section-full reveal" id="forschung">
+  <div class="section-inner">
+    <p class="label">{{forschung_label}}</p>
+    <h2 class="display" style="margin-bottom:40px;">{{forschung_heading}}</h2>
+    <p style="font-size:16px;color:var(--text2);max-width:600px;line-height:1.75;margin-bottom:48px;">
+      {{forschung_intro}}
+    </p>
+  </div>
+  <div class="section-inner">
+    <div class="science-strip">
+      <div class="science-row">
+{{#each pills}}
+        <div class="science-pill"><span class="dot"></span> {{topic}} <span class="author">{{author}}</span></div>
+{{/each}}
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ══ QUELLENVERZEICHNIS ══ -->
+<div class="section reveal" id="quellen">
+  <p class="label">{{quellen_label}}</p>
+  <h2 class="display" style="margin-bottom:48px;">{{quellen_heading}}</h2>
+
+  <div class="w-references" style="margin-top:0;">
+{{#each references}}
+    <div class="w-ref-item">
+      <span class="w-ref-num">{{num}}</span>
+      <div>{{ref}}</div>
+    </div>
+{{/each}}
+  </div>
+</div>
+
+{{> footer}}
+
+{{> science-data}}
+
+<script src="function.js"></script>
+</body>
+</html>
