@@ -21,7 +21,7 @@
       "kicker": "Der Einstieg",
       "headline": "Kein Setup.<br>Nur dein PDF.",
       "desc": "PDF hochladen, fertig. Encognition liest, strukturiert und baut daraus eine ganze Lernumgebung — mit echtem Kontext aus deinem Dokument. Du fängst an zu lernen, nicht einzurichten.",
-      "sci": "<span class=\"feature-sci\">Cognitive Load Theory — Sweller, 1988</span>"
+      "sci": ""
     },
     {
       "num": "2",
@@ -31,7 +31,7 @@
       "kicker": "Aktiver Abruf",
       "headline": "Nicht wiederlesen.<br>Wirklich abrufen.",
       "desc": "Wiederlesen fühlt sich nach Können an — ist aber keins. Encognition fragt dich aktiv ab, statt dich in falscher Sicherheit zu wiegen. FSRS-5 bringt Inhalte genau dann zurück, wenn du sie fast vergessen hast.",
-      "sci": "<span class=\"feature-sci\">Testing Effect — Roediger &amp; Karpicke, 2006</span>"
+      "sci": ""
     },
     {
       "num": "3",
