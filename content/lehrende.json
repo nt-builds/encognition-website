@@ -1,0 +1,55 @@
+{
+  "title": "Encognition für Lehrende — Ihr Material soll Studierende trainieren. Nicht die KI.",
+  "nav_home": "index.html",
+  "footer_home": "index.html",
+  "support_active": "",
+
+  "hero_eyebrow": "Für Lehrende",
+  "hero_headline": "Ihr Material soll Studierende&nbsp;trainieren.<br>Nicht die KI.",
+  "hero_sub": "Ihre Studierenden nutzen längst KI-Tools zur Prüfungsvorbereitung. Encognition achtet beides — das Gehirn Ihrer Studierenden und Ihr Urheberrecht.",
+  "hero_cta": "Kostenlos testen — ohne Konto",
+
+  "section_label": "Warum Encognition",
+  "section_heading": "Lernwirksam. <em>Und integer.</em>",
+
+  "features": [
+    {
+      "reverse": "",
+      "img": "screen2.png",
+      "alt": "Studierende laden Lehrmaterial in KI-Tools",
+      "kicker": "Die Realität",
+      "headline": "Längst<br>hochgeladen.",
+      "desc": "Rund 90&nbsp;% der Studierenden setzen KI im Studium ein — häufig in Tools, deren Nutzungsbedingungen sich weitreichende Rechte an genau diesem Material sichern: bearbeiten, kommerziell verwerten, fürs KI-Training nutzen. Encognition ist anders gebaut.",
+      "sci": "<span class=\"feature-sci\">Nutzung im Studium — von Garrel &amp; Mayer, 2025</span>"
+    },
+    {
+      "reverse": " reverse",
+      "img": "screen6.png",
+      "alt": "Datenschutz und Urheberrecht",
+      "kicker": "Ihre Rechte",
+      "headline": "Ihre Materialien,<br>Ihre Rechte.",
+      "desc": "Folien und Skripte werden <strong>nicht</strong> für das Training von KI-Modellen genutzt. Keine Weitergabe oder Weiterverwendung. Studierendendaten werden DSGVO-konform verarbeitet.",
+      "sci": ""
+    },
+    {
+      "reverse": "",
+      "img": "screen5.png",
+      "alt": "Lerninhalte mit Quellenbezug zum Originalmaterial",
+      "kicker": "Inhaltliche Qualität",
+      "headline": "Mit Quelle.<br>Nicht halluziniert.",
+      "desc": "KI-generierte Lerninhalte werden mit transparentem Bezug zu Ihrem Originalmaterial abgeleitet. So lernen Studierende an dem, was Sie tatsächlich lehren — nachvollziehbar statt frei erfunden.",
+      "sci": ""
+    },
+    {
+      "reverse": " reverse",
+      "img": "screen4.png",
+      "alt": "Aktiver Abruf statt Auswendiglernen",
+      "kicker": "Didaktisch fundiert",
+      "headline": "Nicht auswendig.<br>Übersteht die Prüfung.",
+      "desc": "Encognition setzt auf das, was die Lernforschung als wirksam belegt: aktives Abrufen statt Wiederlesen, verteiltes Wiederholen statt kurzfristigem Auswendiglernen — Wissen, das über den Prüfungstag hinaus bleibt.",
+      "sci": "<span class=\"feature-sci\">Testing Effect — Roediger &amp; Karpicke, 2006</span>"
+    }
+  ],
+
+  "footer_meta": "Quelle der 90-%-Angabe: von Garrel, J. &amp; Mayer, J. (2025). Künstliche Intelligenz im Studium. Hochschule Darmstadt. doi.org/10.48444/h_docs-pub-533<br>\n    Cognitive Memory System · iOS Beta · Made with ♥ by Nathalie · 2026"
+}

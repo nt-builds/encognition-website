@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="icon-dark.png">
+<link rel="apple-touch-icon" href="icon-dark.png">
+<title>{{title}}</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lp">
+
+{{> nav-badge}}
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow-blue"></div>
+
+  <div class="hero-icon-wrap">
+    <img src="icon-dark.png" alt="Encognition App Icon">
+  </div>
+
+  <p class="hero-eyebrow">{{hero_eyebrow}}</p>
+
+  <h1 class="hero-headline">{{hero_headline}}</h1>
+
+  <p class="hero-sub">{{hero_sub}}</p>
+
+  <div class="hero-cta">
+    <a href="https://apps.apple.com/at/app/encognition-ki-lern-app/id6760428884" class="btn-primary">{{hero_cta}}</a>
+  </div>
+</section>
+
+<!-- ══ FEATURE SHOWCASE ══ -->
+<hr class="section-divider">
+<div class="section reveal">
+  <p class="label">{{section_label}}</p>
+  <h2 class="display" style="margin-bottom:72px;">{{section_heading}}</h2>
+
+  <div class="feature-showcase">
+{{#each features}}
+    <div class="feature-row{{reverse}}">
+      <div class="feature-img-wrap">
+        <img class="feature-img" src="{{img}}" alt="{{alt}}">
+      </div>
+      <div class="feature-body">
+        <p class="feature-kicker">{{kicker}}</p>
+        <h3 class="feature-headline">{{headline}}</h3>
+        <p class="feature-desc">{{desc}}</p>
+        {{sci}}
+      </div>
+    </div>
+{{/each}}
+  </div>
+</div>
+
+{{> footer}}
+
+<script src="function.js"></script>
+</body>
+</html>

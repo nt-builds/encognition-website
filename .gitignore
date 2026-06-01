@@ -5,3 +5,9 @@
 
 # Lokale Entwürfe
 _entwurf_*.html
+.DS_Store
+
+# Build-Ausgabe & Abhängigkeiten
+dist/
+node_modules/
+.DS_Store

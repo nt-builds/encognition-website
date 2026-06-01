@@ -1,0 +1,45 @@
+{
+  "title": "Support — Encognition",
+  "footer_home": "index.html",
+  "support_active": " class=\"active\"",
+
+  "page_eyebrow": "Hilfe & Kontakt",
+  "page_title": "Support",
+  "page_meta": "Encognition iOS App · Nathalie Trefz",
+
+  "s1_heading": "Kontakt",
+  "s1_intro": "Du hast ein Problem, einen Bug entdeckt oder eine Frage zur App? Ich helfe gerne weiter — schreib mir einfach eine E-Mail.",
+  "contact_email": "mail@nathalie-trefz.de",
+  "s1_outro": "Ich antworte in der Regel innerhalb von 1–2 Werktagen.",
+
+  "s2_heading": "Was ich brauche, um dir gut helfen zu können",
+  "s2_intro": "Damit ich dein Anliegen schnell verstehen und lösen kann, hilft es mir sehr, wenn deine Nachricht folgende Informationen enthält:",
+  "checklist": [
+    { "item": "<em>iOS-Version</em> — z. B. iOS 17.4 (zu finden unter Einstellungen → Allgemein → Info)" },
+    { "item": "<em>App-Version</em> — z. B. 1.2.0 (zu finden im App Store unter deinen gekauften Apps oder in den App-Einstellungen)" },
+    { "item": "<em>Gerät</em> — z. B. iPhone 15 Pro" },
+    { "item": "<em>Was passiert ist</em> — eine kurze Beschreibung des Problems: Was hast du gemacht, was hättest du erwartet, was ist stattdessen passiert?" },
+    { "item": "<em>Wann es passiert</em> — immer, manchmal, nur bei bestimmten Dateitypen oder Inhalten?" },
+    { "item": "<em>Screenshot oder Bildschirmaufnahme</em> — falls du den Fehler oder das unerwartete Verhalten festhalten kannst, sehr gerne anhängen." }
+  ],
+  "infobox_title": "Hinweis zu Inhalten",
+  "infobox_text": "Wenn dein Problem mit einem bestimmten Dokument oder PDF zusammenhängt: Bitte schicke mir nur Dateien, die keine sensiblen oder personenbezogenen Daten Dritter enthalten. Das Dokument hilft mir, den Fehler nachzustellen — ist aber freiwillig.",
+
+  "s3_heading": "Häufige Fragen",
+  "faq": [
+    {
+      "q": "Die Karten werden nicht generiert — was tun?",
+      "a": "Prüfe zunächst deine Internetverbindung, da die KI-Verarbeitung eine aktive Verbindung benötigt. Falls das Problem weiterhin besteht, schreib mir mit den Infos aus Abschnitt 02."
+    },
+    {
+      "q": "Mein Abonnement wird nicht erkannt.",
+      "a": "Öffne die App-Einstellungen und tippe auf „Käufe wiederherstellen\". Falls das nicht hilft, wende dich direkt an <a href=\"https://support.apple.com\" target=\"_blank\" rel=\"noopener\">Apple Support</a> — die Zahlungsabwicklung liegt bei Apple."
+    },
+    {
+      "q": "Ich möchte Feedback oder eine Feature-Idee teilen.",
+      "a": "Sehr gerne! Feedback ist Gold wert — schreib mir einfach an <a href=\"mailto:mail@nathalie-trefz.de\">mail@nathalie-trefz.de</a>. Ich lese jede Nachricht persönlich."
+    }
+  ],
+
+  "footer_meta": "Cognitive Memory System · iOS Beta<br>\n    Made with ♥ by Nathalie · 2026"
+}

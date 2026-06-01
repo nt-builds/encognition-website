@@ -1,0 +1,9 @@
+{
+  "name": "encognition-website",
+  "version": "1.0.0",
+  "description": "Statische Website encognition.app – Texte in content/*.json, Build via build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "private": true
+}
