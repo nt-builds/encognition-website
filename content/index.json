@@ -38,7 +38,7 @@
       "kicker": "Der Einstieg",
       "headline": "Kein Setup.<br>Nur dein PDF.",
       "desc": "PDF hochladen, fertig. Die KI liest, strukturiert und erstellt Lernkarten — mit echtem Kontext aus deinem Dokument. Du fängst an zu lernen, nicht einzurichten.",
-      "sci": "<span class=\"feature-sci\">Cognitive Load Theory — Sweller, 1988</span>"
+      "sci": ""
     },
     {
       "reverse": " reverse",
@@ -46,8 +46,8 @@
       "alt": "10 Aufgabenformate und Spaced Repetition",
       "kicker": "Aktiver Abruf",
       "headline": "10 Formate.<br>Keine Routine.",
-      "desc": "Emojis kodieren, Analogien erfinden, das Falsche raussuchen, Konzepte zeichnen — jedes Format erzwingt echten Abruf. FSRS-5 sorgt dafür, dass Karten genau dann wiederkommen, wenn du sie fast vergessen hast.",
-      "sci": "<span class=\"feature-sci\">Testing Effect — Roediger &amp; Karpicke, 2006</span>"
+      "desc": "Emojis kodieren, Analogien erfinden, das Falsche raussuchen, Konzepte zeichnen — jedes Format erzwingt echten Abruf. Und Karten kommen genau dann wieder, wenn du sie fast vergessen hast.",
+      "sci": ""
     },
     {
       "reverse": "",
@@ -56,7 +56,7 @@
       "kicker": "Tiefes Verstehen",
       "headline": "Nicht auswendig.<br>Wirklich verstehen.",
       "desc": "Jede Aufgabe bringt Kontext, ein direktes Zitat aus deiner PDF und zeigt dir deinen Platz im Wissens-Grid. Du siehst immer, worauf sich die KI stützt — und wo du gerade bist.",
-      "sci": "<span class=\"feature-sci\">Dual Coding — Paivio, 1971</span>"
+      "sci": ""
     },
     {
       "reverse": " reverse",
@@ -65,7 +65,7 @@
       "kicker": "Räumliche Verortung",
       "headline": "Dein Wissen<br>auf einer Karte.",
       "desc": "Das Grid zeigt alle Karten nach Topics sortiert — farblich markiert, räumlich fixiert. Dein Gehirn verankert Wissen besser, wenn es weiß, wo es hängt.",
-      "sci": "<span class=\"feature-sci\">Spatial Memory — Sanchez &amp; Wiley, 2009</span>"
+      "sci": ""
     }
   ],
 
