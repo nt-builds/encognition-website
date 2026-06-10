@@ -45,7 +45,7 @@ async function renderBlogList() {
   posts.sort((a, b) => b.date.localeCompare(a.date));
 
   list.innerHTML = posts.map((post) => `
-    <a class="blog-card" href="/blog/${post.slug}">
+    <a class="blog-card" href="/blog-post?p=${post.slug}">
       <p class="blog-card-date">${formatDate(post.date)}</p>
       <h2 class="blog-card-title">${post.title}</h2>
       <p class="blog-card-excerpt">${post.excerpt}</p>
@@ -60,11 +60,10 @@ async function renderBlogPost() {
   if (!content) return;
 
   const params = new URLSearchParams(window.location.search);
-  let slug = params.get("p");
+  const slug = params.get("p");
   if (!slug) {
-    // Fallback: /blog/<slug>/ ohne Rewrite-Query, z. B. lokal geöffnet
-    const parts = window.location.pathname.split("/").filter(Boolean);
-    slug = parts[parts.length - 1];
+    content.innerHTML = "<p>Dieser Beitrag konnte nicht gefunden werden.</p>";
+    return;
   }
 
   const res = await fetch(`/blog-posts/${slug}/post.md`);
