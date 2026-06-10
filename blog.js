@@ -40,12 +40,12 @@ async function renderBlogList() {
   const list = document.getElementById("blog-list");
   if (!list) return;
 
-  const res = await fetch("blog-posts/index.json");
+  const res = await fetch("/blog-posts/index.json");
   const posts = await res.json();
   posts.sort((a, b) => b.date.localeCompare(a.date));
 
   list.innerHTML = posts.map((post) => `
-    <a class="blog-card" href="blog/${post.slug}">
+    <a class="blog-card" href="/blog/${post.slug}">
       <p class="blog-card-date">${formatDate(post.date)}</p>
       <h2 class="blog-card-title">${post.title}</h2>
       <p class="blog-card-excerpt">${post.excerpt}</p>
@@ -67,7 +67,7 @@ async function renderBlogPost() {
     slug = parts[parts.length - 1];
   }
 
-  const res = await fetch(`blog-posts/${slug}/post.md`);
+  const res = await fetch(`/blog-posts/${slug}/post.md`);
   if (!res.ok) {
     content.innerHTML = "<p>Dieser Beitrag konnte nicht gefunden werden.</p>";
     return;
@@ -87,7 +87,7 @@ async function renderBlogPost() {
   renderer.image = ({ href, title, text }) => {
     let src = href;
     if (!/^(https?:)?\/\//.test(src) && !src.startsWith("/") && !src.startsWith("data:")) {
-      src = `blog-posts/${slug}/${src}`;
+      src = `/blog-posts/${slug}/${src}`;
     }
     const titleAttr = title ? ` title="${title}"` : "";
     return `<img src="${src}" alt="${text}"${titleAttr} loading="lazy">`;

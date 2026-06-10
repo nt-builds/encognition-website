@@ -1,4 +1,4 @@
 /betatest /betatest/general 301
 /betatest/ /betatest/general 301
 
-/blog/:slug /blog-post.html?p=:slug 200
+/blog/* /blog-post.html 200
