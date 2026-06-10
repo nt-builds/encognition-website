@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="icon-dark.png">
+<link rel="apple-touch-icon" href="icon-dark.png">
+<title>{{title}}</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+{{> nav-back}}
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow-blue"></div>
+
+  <p class="hero-eyebrow">{{hero_eyebrow}}</p>
+
+  <h1 class="hero-headline">{{hero_headline}}</h1>
+
+  <p class="hero-sub">{{hero_sub}}</p>
+</section>
+
+<hr class="section-divider">
+
+<!-- ══ BEITRÄGE ══ -->
+<div class="section reveal">
+  <div class="blog-list" id="blog-list"></div>
+</div>
+
+{{> footer}}
+
+<script src="blog.js"></script>
+<script src="function.js"></script>
+</body>
+</html>

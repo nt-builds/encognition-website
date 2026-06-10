@@ -1,0 +1,13 @@
+{
+  "title": "Encognition – Blog",
+
+  "footer_home": "index.html",
+  "support_active": "",
+  "blog_active": " class=\"active\"",
+
+  "hero_eyebrow": "Blog",
+  "hero_headline": "Gedanken zu <em>Lernen</em>,<br>Gedächtnis &amp; Wissenschaft",
+  "hero_sub": "Kurze, zeitlose Texte über die Forschung und Ideen hinter <span class=\"brand\"><span class=\"en\">En</span><span class=\"cogni\">cognition</span></span>.",
+
+  "footer_meta": "Cognitive Memory System · iOS Beta<br>\n    Made with ♥ by Nathalie · 2026"
+}
